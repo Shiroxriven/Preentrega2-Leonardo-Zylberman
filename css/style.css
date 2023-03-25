@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* navegador */
+.navegador{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navegador .logo {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.navegador ul {
+    list-style: none;
+    display: flex;
+    justify-content: end;
+}
+.navegador ul li a {
+    display: block;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+}
+/* Fin navegador */
+
+/* Inicio footer */
+
+.footer {
+    background-color: black;
+    display: flex;
+    justify-content: end;
+}
+.footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: end;
+}
+
+.footer ul li a {
+    display: block;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+}
+
+/* Fin footer */
+
+.preciosinfo{ 
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+.productos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.bannerimg{
+    height: 600px;
+    width: 1900px;
+}
+.productoimg{
+    height: 300px;
+    width: 300px;
+}
+.filtros h2 {
+    font-size: 70px;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.filtros h3 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+}
+
+.filtros ul li{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+}
