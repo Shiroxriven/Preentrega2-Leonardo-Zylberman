@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
     <title>Tu Lugar Gamer</title>
 </head>
@@ -20,12 +21,30 @@
         </nav>
     </header>
     <main>
-        <div>
-       <img class="bannerimg" src="./assets/razer-brand-banner.jpg" alt="Razer_Banner">
-       <img class="bannerimg" src="./assets/13B4DE70-55EF-4341-89A5-48639468D2B7.jpeg" alt="Rog_Banner">
-       <img class="bannerimg" src="./assets/172hO9M.png" alt="Nvidia_Banner">
-       <img class="bannerimg" src="./assets/F_20190711175543oBV482.jpeg" alt="Aorus_Banner">
-        </div>
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./assets/razer-brand-banner.png" class="d-block w-100" alt="razer-brand-banner">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/Banner aorus.png" class="d-block w-100" alt="aorus">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/Banner Rog.png" class="d-block w-100" alt="rog">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/Banner nvidia.png" class="d-block w-100" alt="nvidia">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
         <div class="productos">
             <img class="productoimg" src="./assets/Gabinete1.png" alt="Gabinete_Corsair">
             <p class="preciosinfo">Gabinete Corsair $40000</p>
@@ -45,5 +64,6 @@
               </ul>
         <nav>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
 </body>
 </html>
