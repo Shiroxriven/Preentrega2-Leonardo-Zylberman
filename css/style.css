@@ -6,9 +6,6 @@
 /* navegador */
 .navegador{
     background-color: black;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 .navegador .logo {
     width: 100px;
@@ -17,8 +14,6 @@
 }
 .navegador ul {
     list-style: none;
-    display: flex;
-    justify-content: end;
 }
 .navegador ul li a {
     display: block;
@@ -26,7 +21,7 @@
     font-family: 'Roboto', sans-serif;
     color: white;
     font-size: 25px;
-    padding: 5px;
+    padding: 10px 5px;
 }
 /* Fin navegador */
 
@@ -59,10 +54,8 @@
     font-size: 20px;
     color: white;
 }
-.productos{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+.producto{
+    margin: 10px;
 }
 .bannerimg{
     height: 600px;
@@ -93,3 +86,7 @@
     padding: 10px;
 }
 
+@media (max width:700px;){
+    .filtros h2 {
+        color: aqua;
+    }

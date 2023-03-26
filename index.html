@@ -10,9 +10,9 @@
 </head>
 <body style="background-color: black;">
     <header>
-        <nav class="navegador">
+        <nav class="navegador d-flex align-items-center justify-content-between">
             <a href="./index.html"><img class="logo" src="./assets/apple-computer-laptop-mac-monitor-screen-icon--icon-search--16.png" alt="Icono_Web"></a>
-            <ul>
+            <ul class="m-0 d-flex justify-content-end">
                 <li><a href="./pages/ofertas.html">Ofertas</a></li>
                 <li><a href="./pages/pc_armadas.html">Pc Armadas</a></li>
                 <li><a href="./pages/notebooks.html">Notebooks</a></li>
@@ -45,15 +45,23 @@
               <span class="visually-hidden">Next</span>
             </button>
           </div>
-        <div class="productos">
-            <img class="productoimg" src="./assets/Gabinete1.png" alt="Gabinete_Corsair">
-            <p class="preciosinfo">Gabinete Corsair $40000</p>
-            <img class="productoimg" src="./assets/Motherboard Rog1.jpg" alt="Motherboard_Rog1">
-            <p class="preciosinfo">Motherboard Rog $70000</p>
-            <img class="productoimg" src="./assets/Placa de video1.png" alt="Placa_video1">
-            <p class="preciosinfo">Placa de video $130000</p>
-            <img class="productoimg" src="./assets/Notebook rog1.png" alt="Notebook_rog1">
-            <p class="preciosinfo">Notebook Rog Gamer $400000</p>
+        <div class="row justify-content-center">
+            <div class="producto col-12 col-sm-6 col-lg-4">
+              <img class="productoimg" src="./assets/Gabinete1.png" alt="Gabinete_Corsair">
+              <p class="preciosinfo">Gabinete Corsair $40000</p>
+            </div>
+            <div class="producto col-12 col-sm-6 col-lg-4">
+              <img class="productoimg" src="./assets/Motherboard Rog1.jpg" alt="Motherboard_Rog1">
+              <p class="preciosinfo">Motherboard Rog $70000</>
+            </div>
+            <div class="producto col-12 col-sm-6 col-lg-4">
+              <img class="productoimg" src="./assets/Placa de video1.png" alt="Placa_video1">
+              <p class="preciosinfo">Placa de video $130000</p>
+            </div>
+            <div class="producto col-12 col-sm-6 col-lg-4"> 
+              <img class="productoimg" src="./assets/Notebook rog1.png" alt="Notebook_rog1">
+              <p class="preciosinfo">Notebook Rog Gamer $400000</p>
+          </div>
         </div>
     </main>
     <footer>
