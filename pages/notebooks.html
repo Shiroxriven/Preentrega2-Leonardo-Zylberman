@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <title>Tu Lugar Gamer</title>
 </head>
 <body style="background-color:black">
     <header>
-        <nav class="navegador">
+        <nav class="navegador d-flex align-items-center justify-content-between">
             <a href="../index.html"><img class="logo" src="../assets/apple-computer-laptop-mac-monitor-screen-icon--icon-search--16.png" alt="Icono_Web"></a>
-            <ul>
+            <ul class="m-0 d-flex justify-content-end">
                 <li><a href="../pages/ofertas.html">Ofertas</a></li>
                 <li><a href="../pages/pc_armadas.html">Pc Armadas</a></li>
                 <li><a href="../pages/notebooks.html">Notebooks</a></li>
@@ -20,10 +21,32 @@
         </nav>
     </header>
     <main>
-        <div>
-            <img class="bannerimg" src="../assets/razer-brand-banner.jpg" alt="Razer_Banner">
-        </div>
-        <h2>Todas Nuestras Ofertas</h2>
+    </header>
+    <main>
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../assets/razer-brand-banner.png" class="d-block w-100" alt="razer-brand-banner">
+              </div>
+              <div class="carousel-item">
+                <img src="../assets/Banner aorus.png" class="d-block w-100" alt="aorus">
+              </div>
+              <div class="carousel-item">
+                <img src="../assets/Banner Rog.png" class="d-block w-100" alt="rog">
+              </div>
+              <div class="carousel-item">
+                <img src="../assets/Banner nvidia.png" class="d-block w-100" alt="nvidia">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
         <div class="filtros">
             <h2>Todas Nuestras Notebooks</h2>
             <h3>Filtros</h3>
@@ -36,11 +59,15 @@
                 <li><input type="checkbox" name="recordarpass">Envio Gratis</li>
             </ul>
         </div>
-        <div class="productos">
-            <img class="productoimg" src="../assets/Motherboard Rog1.jpg" alt="Motherboard_Rog1">
-            <p class="preciosinfo">Motherboard Rog $10 OFERTON</p>
-            <img class="productoimg" src="../assets/Placa de video1.png" alt="Placa_video1">
-            <p class="preciosinfo">Placa de video nvidia $10 OFERTON</p>
+        <div class="row justify-content-center">
+            <div class="producto col-12 col-sm-6 col-lg-4">
+                <img class="productoimg" src="../assets/Motherboard Rog1.jpg" alt="Motherboard_Rog1">
+                <p class="preciosinfo">Motherboard Rog $10 OFERTON</p>
+            </div>
+            <div class="producto col-12 col-sm-6 col-lg-4">
+                <img class="productoimg" src="../assets/Placa de video1.png" alt="Placa_video1">
+                <p class="preciosinfo">Placa de video nvidia $10 OFERTON</p>
+            </div>
         </div>
     </main>
     <footer>
@@ -51,5 +78,6 @@
               </ul>
         <nav>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
 </body>
 </html>

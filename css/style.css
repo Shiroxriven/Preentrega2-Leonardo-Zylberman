@@ -78,15 +78,10 @@
     padding: 10px;
 }
 
-.filtros ul li{
-    text-decoration: none;
+.filtros ul{
     font-family: 'Roboto', sans-serif;
     color: white;
-    font-size: 15px;
+    font-size: 20px;
     padding: 10px;
+    text-decoration: none;
 }
-
-@media (max width:700px;){
-    .filtros h2 {
-        color: aqua;
-    }
